@@ -39,8 +39,8 @@
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, my name is <span class="name">Safinaz Ahmad Mubarak</span></h3>
                             <h3 class="my-profession">I' m a <span class="typing">Representative African Women</span></h3>
-                            <p>I working GIS field with extensive experience for over 5 years.
-                                My expertise is to create and website design,graphic design, and many more...
+                            <p>I working in GIS field with extensive experience for over 5 years.
+                                My expertise is ArcGIS,AutoCad,Cartography, and many more...
                             </p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
