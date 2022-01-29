@@ -23,8 +23,8 @@
                 <span></span>
             </div>
             <ul class="nav">
-              <li><a href="" class="active"><i class="fa fa-home"></i> Home</a></li>
-              <li><a href=""><i class="fa fa-user"></i> About</a></li>
+              <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+              <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
               <li><a href=""><i class="fa fa-list"></i> Services</a></li>
               <li><a href=""><i class="fa fa-briefcase"></i> Portfolio</a></li>
               <li><a href=""><i class="fa fa-comments"></i> Contact</a></li>
@@ -34,7 +34,7 @@
         <!-- main content start -->
         <div class="main-content">
             <!-- home section start-->
-            <section class="home section">
+            <section class="home section  " id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -52,6 +52,175 @@
                 </div>
             </section>
             <!-- home section end -->
+            <!-- about section start -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>About me!</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I' m Safinaz Ahmad Luckey <span>Representative African Women</span></h3>
+                                    <p>I working in GIS field with extensive experience for over 5 years.
+                                        My expertise is ArcGIS,AutoCad,Cartography, and many more...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday: <span>2 jan 1994</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age: <span>28</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website: <span>https://safinazmubarak.heroku.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email: <span>safinaz@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree: <span>GIS</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone: <span>no available</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City: <span>Abu Hammus</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="" class="btn">Download CV</a>
+                                            <a href="#contact" class="btn hire-me">Hire me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                   <div class="row">
+                                       <div class="skill-item padd-15">
+                                           <h5>ArcGIS</h5>
+                                           <div class="progress">
+                                               <div class="progress-in" style="width:76%;"></div>
+                                               <div class="skill-percent">76%</div>
+                                           </div>
+                                       </div>
+                                       <div class="skill-item padd-15">
+                                        <h5>ArcGIS Pro</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width:86%;"></div>
+                                            <div class="skill-percent">86%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item padd-15">
+                                        <h5>AutoCad</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width:66%;"></div>
+                                            <div class="skill-percent">66%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item padd-15">
+                                        <h5>Cartograpy</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width:96%;"></div>
+                                            <div class="skill-percent">96%</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item padd-15">
+                                        <h5>Microsoft Office</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width:76%;"></div>
+                                            <div class="skill-percent">76%</div>
+                                        </div>
+                                    </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                              <div class="row">
+                                  <div class="timeline-box padd-15">
+                                      <div class="timeline shadow-dark">
+                                         <!-- timeline item -->
+                                         <div class="timeline-item">
+                                            <div class="circle-dot"></div>
+                                            <h3 class="timeline-date">
+                                                <i class="fa fa-calendar"></i> 2013-2015
+                                            </h3>
+                                            <h4 class="timeline-title">
+                                                BA arts. Geography information system
+                                            </h4>
+                                            <p class="timeline-text">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laborum, quibusdam unde minus doloremque ad quod quos officiis nam nesciunt.
+                                            </p>
+                                         </div>
+                                         <!-- timeline item -->
+                                         <div class="timeline-item">
+                                            <div class="circle-dot"></div>
+                                            <h3 class="timeline-date">
+                                                <i class="fa fa-calendar"></i> 2013-2015
+                                            </h3>
+                                            <h4 class="timeline-title">
+                                                BA arts. Geography information system
+                                            </h4>
+                                            <p class="timeline-text">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laborum, quibusdam unde minus doloremque ad quod quos officiis nam nesciunt.
+                                            </p>
+                                         </div>                         
+                                      </div>
+                                  </div>
+                              </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">
+                                      Experience
+                                    </h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                               <!-- timeline item -->
+                                               <div class="timeline-item">
+                                                  <div class="circle-dot"></div>
+                                                  <h3 class="timeline-date">
+                                                      <i class="fa fa-calendar"></i> 2013-2015
+                                                  </h3>
+                                                  <h4 class="timeline-title">
+                                                      BA arts. Geography information system
+                                                  </h4>
+                                                  <p class="timeline-text">
+                                                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laborum, quibusdam unde minus doloremque ad quod quos officiis nam nesciunt.
+                                                  </p>
+                                               </div>
+                                               <!-- timeline item -->
+                                               <div class="timeline-item">
+                                                  <div class="circle-dot"></div>
+                                                  <h3 class="timeline-date">
+                                                      <i class="fa fa-calendar"></i> 2013-2015
+                                                  </h3>
+                                                  <h4 class="timeline-title">
+                                                      BA arts. Geography information system
+                                                  </h4>
+                                                  <p class="timeline-text">
+                                                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta laborum, quibusdam unde minus doloremque ad quod quos officiis nam nesciunt.
+                                                  </p>
+                                               </div>                         
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about section end -->
         </div>
         <!-- main content end -->
     </div>
