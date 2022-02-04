@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/safinaz.jpg" type="image/x-icon">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/color-1.css">
+    <!-- style switcher -->
+    <link rel="stylesheet" href="./css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./css/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/style-switcher.css">
+    
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -41,7 +49,7 @@
                             <h3 class="hello">Hello, my name is <span class="name">Safinaz Ahmad Mubarak</span></h3>
                             <h3 class="my-profession">I' m a <span class="typing">Representative African Women</span></h3>
                             <p>I working in GIS field with extensive experience for over 5 years.
-                                My expertise is ArcGIS,AutoCad,Cartography, and many more...
+                                My expertise is <span class="exp"></span>, and many more...
                             </p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
@@ -385,5 +393,27 @@
         <!-- main content end -->
     </div>
     <!-- main container end -->
+    <!-- style switcher start -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--style switcher end  -->
+    <!-- js files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/style-switcher.js"></script>
 </body>
 </html>
