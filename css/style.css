@@ -48,6 +48,31 @@ ul{
     position: block;
     padding:0 30px;
     opacity: 1;
+    position:fixed;
+    left:270px;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all .3s ease;
+}
+.section.back-section{
+    z-index: 1;
+}
+.section.active{
+    z-index: 2;
+    opacity:1;
+    animation:slideSection 1s ease;
+}
+@keyframes slideSection{
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 .main-content{
     padding-left:270px;
@@ -132,6 +157,7 @@ z-index: 10;
 display: flex;
 justify-content: center;
 align-items: center;
+transition: all .3s ease;
 }
 .aside .logo{
     position: absolute;
@@ -184,6 +210,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     background: var(--bg-black-100);
+    transition: all .3s ease;
 }
 .aside .nav-toggler span{
     height:2px;
@@ -191,6 +218,9 @@ align-items: center;
     background: var(--skin-color);
    display: inline-block;
    position: relative;
+}
+.aside .nav-toggler.open span{
+    background-color: transparent;
 }
 .aside .nav-toggler span::before{
     content:'';
@@ -201,6 +231,16 @@ align-items: center;
     top:-6px;
     left:0;
 }
+.aside .nav-toggler.open span::before{
+    content:'';
+transform: rotate(45deg);
+top:0;
+}
+.aside .nav-toggler.open span::after{
+    content:'';
+    transform: rotate(-45deg);
+    top:0;
+    }
 .aside .nav-toggler span::after{
     content:'';
     height:2px;
@@ -568,8 +608,21 @@ cursor: pointer;
     .aside{
         left:-270px;
     }
-    .main-content{
-        padding-left: 0;
+    .aside.open{
+        left:0;
+    }
+    .aside .nav-toggler{
+        display: flex;
+        left:30px;
+    }
+    .aside .nav-toggler.open{
+        left:300px;
+    }
+    .section{
+        left:0;
+    }
+    .section.open{
+        left:270px;
     }
     .about .about-content .personal-info .info-item span{
         display: block;

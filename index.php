@@ -42,7 +42,7 @@
         <!-- main content start -->
         <div class="main-content">
             <!-- home section start-->
-            <section class="home section  " id="home">
+            <section class="home section active" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
